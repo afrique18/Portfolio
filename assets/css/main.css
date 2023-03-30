@@ -32,3 +32,13 @@ header h1 {
     padding: 10px;
     border: 0.5 solid;
 }
+
+.hero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #581550;
+}
