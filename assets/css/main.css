@@ -42,3 +42,24 @@ header h1 {
     justify-content: space-around;
     background-color: #581550;
 }
+.container {
+    width: 90px;
+    padding-bottom: 120px;
+    margin: 30px auto; 0px auto; 
+    display: grid;
+    grid-template-columns: 15% 80%
+}
+
+.about-me {
+    border-right: 4px solid;
+    font-size: 40px;
+    text-align: end;
+    padding-right: 15px;
+}
+
+h2 {
+    color: #344856;
+    text-align: end;
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-weight: 800;
+}
