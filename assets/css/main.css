@@ -1,0 +1,22 @@
+
+:root {
+    --primary: #203d93;
+    --secondary: #344856;
+    --pop: #581550;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+header {
+    background-color: rgb(196, 231, 206);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
