@@ -97,7 +97,49 @@ h2 {
 #portfolio {
     width: 100%;
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    grid-template-rows: 400px 200px 200px;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 460px 210px 210px;
+    grid-template-areas: "fig0" "fig1" "fig2" "fig3" "fig4";
+    gap: 50px;
+}
 
+#portfolio a {
+    color: #31343d;
+    text-decoration: none;
+}
+
+.fig0 {
+    grid-area: fig0;
+}
+.fig1 {
+    grid-area: fig1;
+}
+.fig2 {
+    grid-area: fig2;
+}
+.fig3 {
+    grid-area: fig3;
+}
+.fig4 {
+    grid-area: fig4;
+}
+
+figure {
+    width: 100%;
+    position: relative;
+    border: 3px solid #92cccd;
+}
+
+#portfolio img {
+    object-fit: cover;
+    width: 100%;
+    filter: sepia(40%);
+    opacity: 80%;
+}
+
+figcaption {
+    background-color: #92cccd;
+    padding: 10px;
+    position: absolute;
+    bottom: 32px;
 }
