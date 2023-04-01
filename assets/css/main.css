@@ -59,3 +59,23 @@ header nav {
     height: 190px;
     position: relative;
 }
+
+.hero h2 {
+    background-color: #92cccd;
+    color: #31343d;
+    font-size: 30px;
+    padding: 0 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+}
+
+.container {
+    width: 96%;
+    padding-bottom: 115px;
+    margin: 45px auto 0 auto;
+    display: grid;
+    grid-template-columns: 15% 73%;
+    gap: 6%;
+}
