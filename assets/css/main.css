@@ -16,14 +16,14 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 10px;
 }
 
 header h1 {
     background-color: #92cccd;
-    font-size: 55px;
+    font-size: 50px;
     line-height: normal;
-    padding: 0 15px 0 5%;
+    padding: 0 20px 0 5%;
 }
 
 header h1 a {
@@ -32,7 +32,7 @@ header h1 a {
 }
 
 header nav {
-    padding-right: 5%;
+    padding-right: 3%;
 }
 
 .topNav {
@@ -73,9 +73,24 @@ header nav {
 
 .container {
     width: 96%;
-    padding-bottom: 115px;
-    margin: 45px auto 0 auto;
+    padding-bottom: 120px;
+    margin: 42px auto 0 auto;
     display: grid;
-    grid-template-columns: 15% 73%;
+    grid-template-columns: 15% 75%;
     gap: 6%;
 }
+
+.page-section {
+    border-right: 3px solid #445876;
+    font-size: 35px;
+    text-align: right;
+    padding: 14px;
+}
+
+h2 {
+    color: #31343d;
+    text-align: right;
+    font-size: clam(2rem, 4vw, 4rem);
+    font-weight: 700;
+}
+
