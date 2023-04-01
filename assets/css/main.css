@@ -94,3 +94,10 @@ h2 {
     font-weight: 700;
 }
 
+#portfolio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 400px 200px 200px;
+
+}
