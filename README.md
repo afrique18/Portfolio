@@ -31,6 +31,6 @@ GIVEN I need to sample a potential employee's previous work
 ![Alt text](./assets/images/Screenshot%203.png)
 
 ## URL
-<li>GitHub repository: <br> <a href="https://github.com/afrique18/Portfolio"></a></li>
-<li>Deployed application: <br><a href="https://afrique18.github.io/Portfolio/#"></a></li>
+<li>GitHub repository: https://github.com/afrique18/Portfolio</li>
+<li>Deployed application: https://afrique18.github.io/Portfolio/#</li>
 
