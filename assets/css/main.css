@@ -101,6 +101,12 @@ h2 {
     font-weight: bold;
 }
 
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    
+}
 /*Styling for portfolio section */
 
 #portfolio {
